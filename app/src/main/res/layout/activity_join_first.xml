@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lbg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/back"
+        android:padding="0dp"
+        android:background="#00ff0000"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430px"
+            android:layout_marginLeft="220px"
+            android:text="약관동의"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:src="@drawable/underline"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/agr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이용약관 동의" />
+
+        <Button
+            android:layout_width="160px"
+            android:layout_height="100px"
+            android:layout_marginLeft="150px"
+            android:text="보기"
+            android:textSize="30px"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/agr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보취급약관 동의" />
+
+        <Button
+            android:layout_width="160px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:text="보기"
+            android:textSize="30px"/>
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240px"
+        android:layout_marginTop="70px"
+        android:text="전체 동의" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_btn"
+        android:padding="0dp"
+        android:layout_marginTop="90px"
+        android:background="#00ff0000"
+        android:src="@drawable/btn_next"
+        ></ImageButton>
+
+
+
+
+</LinearLayout>

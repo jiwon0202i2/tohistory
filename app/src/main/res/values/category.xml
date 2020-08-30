@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>자동차</item>
+        <item>인형</item>
+        <item>블록</item>
+        <item>소꿉놀이</item>
+        <item>도서</item>
+        <item>물놀이</item>
+        <item>스포츠</item>
+        <item>보드게임</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>영유아(만 0~3세)</item>
+        <item>유아(만 4~6세)</item>
+        <item>초등학교 저학년(만 7~9세)</item>
+        <item>초등학교 고학년(만 10~12세)</item>
+    </string-array>
+</resources>
